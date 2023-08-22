@@ -1,0 +1,111 @@
+boby,h1, h2, h3, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    color: #191991;
+}
+
+.logo img {
+    max-height: 70px;
+}
+
+.collage-info {
+    margin-left: 10px;
+}
+
+nav {
+    background-color: purple;
+}
+
+.menu {
+    overflow: hidden;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: purple;
+    list-style: none;
+    padding: 10px;
+  }
+
+.dropdown:hover .submenu {
+    display: block;
+  }
+.submenu li {
+    margin: 5px 0;
+ }
+ .submenu li:hover {
+    background-color: aquamarine;
+ }
+
+li a:hover {
+    background-color: aquamarine;
+    color: black;
+ }
+
+ .apply{
+    height: 35px;
+    background-color: #191991;
+    border-radius: 20px;
+    font-size: 25px;
+    color: lime;
+    width: 150px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 20px;
+ }
+ .li1{
+    display: inline;
+    padding: 20px;
+ }
+ 
+/*Footer Styles*/
+footer{
+      margin-top:auto;
+      background-color:maroon;
+      color:white;
+      text-align:center;
+      padding:20px;
+}
+
+.social-media img{
+      height:30px;
+      margin:0 5px;
+}
